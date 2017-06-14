@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:FoodTracker/HockeySDK-iOS/HockeySDK.embeddedframework"
+      name = "HockeySDK.embeddedframework">
+      <Group
+         location = "group:HockeySDK.framework"
+         name = "HockeySDK.framework">
+         <Group
+            location = "group:Headers"
+            name = "Headers">
+            <FileRef
+               location = "group:BITAuthenticator.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITCrashAttachment.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITCrashDetails.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITCrashManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITCrashManagerDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITCrashMetaData.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITHockeyAttachment.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITHockeyBaseManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITHockeyBaseViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITHockeyManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITHockeyManagerDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITMetricsManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITStoreUpdateManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITStoreUpdateManagerDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITUpdateManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITUpdateManagerDelegate.h">
+            </FileRef>
+            <FileRef
+               location = "group:BITUpdateViewController.h">
+            </FileRef>
+            <FileRef
+               location = "group:HockeySDK.h">
+            </FileRef>
+            <FileRef
+               location = "group:HockeySDKEnums.h">
+            </FileRef>
+            <FileRef
+               location = "group:HockeySDKFeatureConfig.h">
+            </FileRef>
+            <FileRef
+               location = "group:HockeySDKNullability.h">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:HockeySDK">
+         </FileRef>
+         <Group
+            location = "group:Modules"
+            name = "Modules">
+            <FileRef
+               location = "group:module.modulemap">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:HockeySDKResources.bundle">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "container:FoodTracker/FoodTracker.xcodeproj">
+   </FileRef>
+</Workspace>
