@@ -98,6 +98,12 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         if isPresentingInAddMealMode {
             dismiss(animated: true, completion: nil)
+            
+            //Make the app crash here
+            //let number: Int? = nil
+            //let val = number!
+            var arr: [String] = ["One", "Two"]
+            var outOfRange = arr[2]
         }
         else if let owningNavigationController = navigationController{
             owningNavigationController.popViewController(animated: true)
@@ -124,10 +130,6 @@ class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerCo
         
         // Set the meal to be passed to MealTableViewController after the unwind segue.
         meal = Meal(name: name, photo: photo, rating: rating)
-        
-        //Make the app crash here
-        let number: Int? = nil
-        let val = number!
     }
     
     //MARK: Actions
